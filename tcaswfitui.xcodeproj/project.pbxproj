@@ -10,12 +10,12 @@
 		486AA0A427FEEDE0006207B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486AA0A327FEEDE0006207B1 /* AppDelegate.swift */; };
 		486AA0A627FEEDE0006207B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486AA0A527FEEDE0006207B1 /* SceneDelegate.swift */; };
 		486AA0A827FEEDE0006207B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486AA0A727FEEDE0006207B1 /* ViewController.swift */; };
-		486AA0AB27FEEDE0006207B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486AA0A927FEEDE0006207B1 /* Main.storyboard */; };
 		486AA0AD27FEEDE2006207B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486AA0AC27FEEDE2006207B1 /* Assets.xcassets */; };
 		486AA0B027FEEDE2006207B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486AA0AE27FEEDE2006207B1 /* LaunchScreen.storyboard */; };
 		486AA0BB27FEEDE2006207B1 /* tcaswfituiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486AA0BA27FEEDE2006207B1 /* tcaswfituiTests.swift */; };
 		486AA0C527FEEDE2006207B1 /* tcaswfituiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486AA0C427FEEDE2006207B1 /* tcaswfituiUITests.swift */; };
 		486AA0C727FEEDE2006207B1 /* tcaswfituiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486AA0C627FEEDE2006207B1 /* tcaswfituiUITestsLaunchTests.swift */; };
+		489F69A128001B47000E66EB /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 489F69A028001B47000E66EB /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		486AA0A327FEEDE0006207B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		486AA0A527FEEDE0006207B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		486AA0A727FEEDE0006207B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		486AA0AA27FEEDE0006207B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		486AA0AC27FEEDE2006207B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		486AA0AF27FEEDE2006207B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		486AA0B127FEEDE2006207B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				489F69A128001B47000E66EB /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +102,6 @@
 				486AA0A327FEEDE0006207B1 /* AppDelegate.swift */,
 				486AA0A527FEEDE0006207B1 /* SceneDelegate.swift */,
 				486AA0A727FEEDE0006207B1 /* ViewController.swift */,
-				486AA0A927FEEDE0006207B1 /* Main.storyboard */,
 				486AA0AC27FEEDE2006207B1 /* Assets.xcassets */,
 				486AA0AE27FEEDE2006207B1 /* LaunchScreen.storyboard */,
 				486AA0B127FEEDE2006207B1 /* Info.plist */,
@@ -143,6 +142,9 @@
 			dependencies = (
 			);
 			name = tcaswfitui;
+			packageProductDependencies = (
+				489F69A028001B47000E66EB /* ComposableArchitecture */,
+			);
 			productName = tcaswfitui;
 			productReference = 486AA0A027FEEDE0006207B1 /* tcaswfitui.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +217,9 @@
 				Base,
 			);
 			mainGroup = 486AA09727FEEDE0006207B1;
+			packageReferences = (
+				489F699F28001B47000E66EB /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 486AA0A127FEEDE0006207B1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +238,6 @@
 			files = (
 				486AA0B027FEEDE2006207B1 /* LaunchScreen.storyboard in Resources */,
 				486AA0AD27FEEDE2006207B1 /* Assets.xcassets in Resources */,
-				486AA0AB27FEEDE0006207B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		486AA0A927FEEDE0006207B1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				486AA0AA27FEEDE0006207B1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		486AA0AE27FEEDE2006207B1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -442,7 +438,6 @@
 				INFOPLIST_FILE = tcaswfitui/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +465,6 @@
 				INFOPLIST_FILE = tcaswfitui/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -602,6 +596,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		489F699F28001B47000E66EB /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = exactVersion;
+				version = 0.34.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		489F69A028001B47000E66EB /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 489F699F28001B47000E66EB /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 486AA09827FEEDE0006207B1 /* Project object */;
 }

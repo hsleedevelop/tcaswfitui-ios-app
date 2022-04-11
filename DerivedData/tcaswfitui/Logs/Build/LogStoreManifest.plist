@@ -5,6 +5,75 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>AE1310CF-449A-40A3-AAF5-0001830A8A36</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AE1310CF-449A-40A3-AAF5-0001830A8A36.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>tcaswfitui project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>tcaswfitui</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build tcaswfitui</string>
+			<key>timeStartedRecording</key>
+			<real>671097233.22457397</real>
+			<key>timeStoppedRecording</key>
+			<real>671097234.38149297</real>
+			<key>title</key>
+			<string>Build tcaswfitui</string>
+			<key>uniqueIdentifier</key>
+			<string>AE1310CF-449A-40A3-AAF5-0001830A8A36</string>
+		</dict>
+		<key>E9ED4DAC-EEC1-448D-B181-EAB6DC7D1CD3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E9ED4DAC-EEC1-448D-B181-EAB6DC7D1CD3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>tcaswfitui project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>tcaswfitui</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews tcaswfitui</string>
+			<key>timeStartedRecording</key>
+			<real>671347369.20800102</real>
+			<key>timeStoppedRecording</key>
+			<real>671347379.06944299</real>
+			<key>title</key>
+			<string>Build for Previews tcaswfitui</string>
+			<key>uniqueIdentifier</key>
+			<string>E9ED4DAC-EEC1-448D-B181-EAB6DC7D1CD3</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
